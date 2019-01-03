@@ -1,0 +1,3442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="831363">
+  <title>OpenMetaDesign Research Study</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>Welcome to the OpenMetaDesign Research Study!</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>after</position>
+    <text>&lt;p&gt;Thank you very much for participating in the OpenMetaDesign Research Study!&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;For more information on this research study or in case of any questions, please contact:
+&#13;
+Massimo Menichinelli – +34 657341068 – massimo.menichinelli@aalto.fi&lt;/p&gt;</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="9">
+    <sectionInfo>
+      <position>title</position>
+      <text>Informed consent</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;By giving my consent I confirm my voluntary participation in the OpenMetaDesign research study. I have received sufficient information about the research study, I have had the possibility to have my questions answered, I have understood the information and I wish to participate in the research study.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The research data is handled confidentially so that it is coded in a way that will not reveal my identity and it will be anonymized for academic publications and other research projects. I also give my consent to use the anonymous research data mentioned above in other research projects and academic publications.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;I have understood that participation is entirely voluntary and at any point in the research study I can withdraw my consent and discontinue participation in the research. I am also aware that the data collected up to withdrawal will be used as part of the research data.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;For more information on this research study or in case of any questions, please contact:
+&#13;
+Massimo Menichinelli – +34 657341068 – massimo.menichinelli@aalto.fi&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Do you agree with the privacy policy?</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;By clicking “Yes” below you are indicating that you have read and understood this consent form and agree to participate in this research study.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q00">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="10">
+    <sectionInfo>
+      <position>title</position>
+      <text>You</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>We would like to ask you few questions about you, in order to understand you better and if and how OpenMetaDesign could be useful for you.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>What is your name?</text>
+      <directive>
+        <position>during</position>
+        <text>Please write your name and surname. Your data will be anonymized right after this research study.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q01_SQ001">
+        <text>Name</text>
+      </subQuestion>
+      <subQuestion varName="Q01_SQ002">
+        <text>Surname</text>
+      </subQuestion>
+      <response varName="Q01">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>What is your age?</text>
+      <directive>
+        <position>during</position>
+        <text>Please indicate your age with a number.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q02">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>With which gender do you most identify with?</text>
+      <response varName="Q03">
+        <fixed>
+          <category>
+            <label>Female</label>
+            <value>F</value>
+          </category>
+          <category>
+            <label>Male</label>
+            <value>M</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Where are you from?</text>
+      <directive>
+        <position>during</position>
+        <text>Please indicate your citizenship (one option only is allowed).</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q04">
+        <fixed>
+          <category>
+            <label/>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Afghanistan</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Albania</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Algeria</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>American Samoa</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>Andorra</label>
+            <value>A6</value>
+          </category>
+          <category>
+            <label>Angola</label>
+            <value>A7</value>
+          </category>
+          <category>
+            <label>Anguilla</label>
+            <value>A8</value>
+          </category>
+          <category>
+            <label>Antarctica</label>
+            <value>A9</value>
+          </category>
+          <category>
+            <label>Antigua and Barbuda</label>
+            <value>A10</value>
+          </category>
+          <category>
+            <label>Argentina</label>
+            <value>A11</value>
+          </category>
+          <category>
+            <label>Armenia</label>
+            <value>A12</value>
+          </category>
+          <category>
+            <label>Aruba</label>
+            <value>A13</value>
+          </category>
+          <category>
+            <label>Australia</label>
+            <value>A14</value>
+          </category>
+          <category>
+            <label>Austria</label>
+            <value>A15</value>
+          </category>
+          <category>
+            <label>Azerbaijan</label>
+            <value>A16</value>
+          </category>
+          <category>
+            <label>Bahamas</label>
+            <value>A17</value>
+          </category>
+          <category>
+            <label>Bahrain</label>
+            <value>A18</value>
+          </category>
+          <category>
+            <label>Bangladesh</label>
+            <value>A19</value>
+          </category>
+          <category>
+            <label>Barbados</label>
+            <value>A20</value>
+          </category>
+          <category>
+            <label>Belarus</label>
+            <value>A21</value>
+          </category>
+          <category>
+            <label>Belgium</label>
+            <value>A22</value>
+          </category>
+          <category>
+            <label>Belize</label>
+            <value>A23</value>
+          </category>
+          <category>
+            <label>Benin</label>
+            <value>A24</value>
+          </category>
+          <category>
+            <label>Bermuda</label>
+            <value>A25</value>
+          </category>
+          <category>
+            <label>Bhutan</label>
+            <value>A26</value>
+          </category>
+          <category>
+            <label>Bolivia</label>
+            <value>A27</value>
+          </category>
+          <category>
+            <label>Bosnia and Herzegovina</label>
+            <value>A28</value>
+          </category>
+          <category>
+            <label>Botswana</label>
+            <value>A29</value>
+          </category>
+          <category>
+            <label>Bouvet Island</label>
+            <value>A30</value>
+          </category>
+          <category>
+            <label>Brazil</label>
+            <value>A31</value>
+          </category>
+          <category>
+            <label>British Indian Ocean Territory</label>
+            <value>A32</value>
+          </category>
+          <category>
+            <label>Brunei Darussalam</label>
+            <value>A33</value>
+          </category>
+          <category>
+            <label>Bulgaria</label>
+            <value>A34</value>
+          </category>
+          <category>
+            <label>Burkina Faso</label>
+            <value>A35</value>
+          </category>
+          <category>
+            <label>Burundi</label>
+            <value>A36</value>
+          </category>
+          <category>
+            <label>Cambodia</label>
+            <value>A37</value>
+          </category>
+          <category>
+            <label>Cameroon</label>
+            <value>A38</value>
+          </category>
+          <category>
+            <label>Canada</label>
+            <value>A39</value>
+          </category>
+          <category>
+            <label>Cape Verde</label>
+            <value>A40</value>
+          </category>
+          <category>
+            <label>Cayman Islands</label>
+            <value>A41</value>
+          </category>
+          <category>
+            <label>Central African Republic</label>
+            <value>A42</value>
+          </category>
+          <category>
+            <label>Chad</label>
+            <value>A43</value>
+          </category>
+          <category>
+            <label>Chile</label>
+            <value>A44</value>
+          </category>
+          <category>
+            <label>China</label>
+            <value>A45</value>
+          </category>
+          <category>
+            <label>Christmas Island</label>
+            <value>A46</value>
+          </category>
+          <category>
+            <label>Cocos Islands</label>
+            <value>A47</value>
+          </category>
+          <category>
+            <label>Colombia</label>
+            <value>A48</value>
+          </category>
+          <category>
+            <label>Comoros</label>
+            <value>A49</value>
+          </category>
+          <category>
+            <label>Congo</label>
+            <value>A50</value>
+          </category>
+          <category>
+            <label>Cook Islands</label>
+            <value>A51</value>
+          </category>
+          <category>
+            <label>Costa Rica</label>
+            <value>A52</value>
+          </category>
+          <category>
+            <label>Cote d'Ivoire</label>
+            <value>A53</value>
+          </category>
+          <category>
+            <label>Croatia</label>
+            <value>A54</value>
+          </category>
+          <category>
+            <label>Cuba</label>
+            <value>A55</value>
+          </category>
+          <category>
+            <label>Cyprus</label>
+            <value>A56</value>
+          </category>
+          <category>
+            <label>Czech Republic</label>
+            <value>A57</value>
+          </category>
+          <category>
+            <label>Denmark</label>
+            <value>A58</value>
+          </category>
+          <category>
+            <label>Djibouti</label>
+            <value>A59</value>
+          </category>
+          <category>
+            <label>Dominica</label>
+            <value>A60</value>
+          </category>
+          <category>
+            <label>Dominican Republic</label>
+            <value>A61</value>
+          </category>
+          <category>
+            <label>Ecuador</label>
+            <value>A62</value>
+          </category>
+          <category>
+            <label>Egypt</label>
+            <value>A63</value>
+          </category>
+          <category>
+            <label>El Salvador</label>
+            <value>A64</value>
+          </category>
+          <category>
+            <label>Equatorial Guinea</label>
+            <value>A65</value>
+          </category>
+          <category>
+            <label>Eritrea</label>
+            <value>A66</value>
+          </category>
+          <category>
+            <label>Estonia</label>
+            <value>A67</value>
+          </category>
+          <category>
+            <label>Ethiopia</label>
+            <value>A68</value>
+          </category>
+          <category>
+            <label>Falkland Islands</label>
+            <value>A69</value>
+          </category>
+          <category>
+            <label>Faroe Islands</label>
+            <value>A70</value>
+          </category>
+          <category>
+            <label>Fiji</label>
+            <value>A71</value>
+          </category>
+          <category>
+            <label>Finland</label>
+            <value>A72</value>
+          </category>
+          <category>
+            <label>France</label>
+            <value>A73</value>
+          </category>
+          <category>
+            <label>French Guiana</label>
+            <value>A74</value>
+          </category>
+          <category>
+            <label>French Polynesia</label>
+            <value>A75</value>
+          </category>
+          <category>
+            <label>Gabon</label>
+            <value>A76</value>
+          </category>
+          <category>
+            <label>Gambia</label>
+            <value>A77</value>
+          </category>
+          <category>
+            <label>Georgia</label>
+            <value>A78</value>
+          </category>
+          <category>
+            <label>Germany</label>
+            <value>A79</value>
+          </category>
+          <category>
+            <label>Ghana</label>
+            <value>A80</value>
+          </category>
+          <category>
+            <label>Gibraltar</label>
+            <value>A81</value>
+          </category>
+          <category>
+            <label>Greece</label>
+            <value>A82</value>
+          </category>
+          <category>
+            <label>Greenland</label>
+            <value>A83</value>
+          </category>
+          <category>
+            <label>Grenada</label>
+            <value>A84</value>
+          </category>
+          <category>
+            <label>Guadeloupe</label>
+            <value>A85</value>
+          </category>
+          <category>
+            <label>Guam</label>
+            <value>A86</value>
+          </category>
+          <category>
+            <label>Guatemala</label>
+            <value>A87</value>
+          </category>
+          <category>
+            <label>Guinea</label>
+            <value>A88</value>
+          </category>
+          <category>
+            <label>Guinea-Bissau</label>
+            <value>A89</value>
+          </category>
+          <category>
+            <label>Guyana</label>
+            <value>A90</value>
+          </category>
+          <category>
+            <label>Haiti</label>
+            <value>A91</value>
+          </category>
+          <category>
+            <label>Heard Island and McDonald Islands</label>
+            <value>A92</value>
+          </category>
+          <category>
+            <label>Honduras</label>
+            <value>A93</value>
+          </category>
+          <category>
+            <label>Hong Kong</label>
+            <value>A94</value>
+          </category>
+          <category>
+            <label>Hungary</label>
+            <value>A95</value>
+          </category>
+          <category>
+            <label>Iceland</label>
+            <value>A96</value>
+          </category>
+          <category>
+            <label>India</label>
+            <value>A97</value>
+          </category>
+          <category>
+            <label>Indonesia</label>
+            <value>A98</value>
+          </category>
+          <category>
+            <label>Iran</label>
+            <value>A99</value>
+          </category>
+          <category>
+            <label>Iraq</label>
+            <value>A100</value>
+          </category>
+          <category>
+            <label>Ireland</label>
+            <value>A101</value>
+          </category>
+          <category>
+            <label>Israel</label>
+            <value>A102</value>
+          </category>
+          <category>
+            <label>Italy</label>
+            <value>A103</value>
+          </category>
+          <category>
+            <label>Jamaica</label>
+            <value>A104</value>
+          </category>
+          <category>
+            <label>Japan</label>
+            <value>A105</value>
+          </category>
+          <category>
+            <label>Jordan</label>
+            <value>A106</value>
+          </category>
+          <category>
+            <label>Kazakhstan</label>
+            <value>A107</value>
+          </category>
+          <category>
+            <label>Kenya</label>
+            <value>A108</value>
+          </category>
+          <category>
+            <label>Kiribati</label>
+            <value>A109</value>
+          </category>
+          <category>
+            <label>Kuwait</label>
+            <value>A110</value>
+          </category>
+          <category>
+            <label>Kyrgyzstan</label>
+            <value>A111</value>
+          </category>
+          <category>
+            <label>Laos</label>
+            <value>A112</value>
+          </category>
+          <category>
+            <label>Latvia</label>
+            <value>A113</value>
+          </category>
+          <category>
+            <label>Lebanon</label>
+            <value>A114</value>
+          </category>
+          <category>
+            <label>Lesotho</label>
+            <value>A115</value>
+          </category>
+          <category>
+            <label>Liberia</label>
+            <value>A116</value>
+          </category>
+          <category>
+            <label>Libya</label>
+            <value>A117</value>
+          </category>
+          <category>
+            <label>Liechtenstein</label>
+            <value>A118</value>
+          </category>
+          <category>
+            <label>Lithuania</label>
+            <value>A119</value>
+          </category>
+          <category>
+            <label>Luxembourg</label>
+            <value>A120</value>
+          </category>
+          <category>
+            <label>Macao</label>
+            <value>A121</value>
+          </category>
+          <category>
+            <label>Madagascar</label>
+            <value>A122</value>
+          </category>
+          <category>
+            <label>Malawi</label>
+            <value>A123</value>
+          </category>
+          <category>
+            <label>Malaysia</label>
+            <value>A124</value>
+          </category>
+          <category>
+            <label>Maldives</label>
+            <value>A125</value>
+          </category>
+          <category>
+            <label>Mali</label>
+            <value>A126</value>
+          </category>
+          <category>
+            <label>Malta</label>
+            <value>A127</value>
+          </category>
+          <category>
+            <label>Marshall Islands</label>
+            <value>A128</value>
+          </category>
+          <category>
+            <label>Martinique</label>
+            <value>A129</value>
+          </category>
+          <category>
+            <label>Mauritania</label>
+            <value>A130</value>
+          </category>
+          <category>
+            <label>Mauritius</label>
+            <value>A131</value>
+          </category>
+          <category>
+            <label>Mayotte</label>
+            <value>A132</value>
+          </category>
+          <category>
+            <label>Mexico</label>
+            <value>A133</value>
+          </category>
+          <category>
+            <label>Micronesia</label>
+            <value>A134</value>
+          </category>
+          <category>
+            <label>Moldova</label>
+            <value>A135</value>
+          </category>
+          <category>
+            <label>Monaco</label>
+            <value>A136</value>
+          </category>
+          <category>
+            <label>Mongolia</label>
+            <value>A137</value>
+          </category>
+          <category>
+            <label>Montenegro</label>
+            <value>A138</value>
+          </category>
+          <category>
+            <label>Montserrat</label>
+            <value>A139</value>
+          </category>
+          <category>
+            <label>Morocco</label>
+            <value>A140</value>
+          </category>
+          <category>
+            <label>Mozambique</label>
+            <value>A141</value>
+          </category>
+          <category>
+            <label>Myanmar</label>
+            <value>A142</value>
+          </category>
+          <category>
+            <label>Namibia</label>
+            <value>A143</value>
+          </category>
+          <category>
+            <label>Nauru</label>
+            <value>A144</value>
+          </category>
+          <category>
+            <label>Nepal</label>
+            <value>A145</value>
+          </category>
+          <category>
+            <label>Netherlands</label>
+            <value>A146</value>
+          </category>
+          <category>
+            <label>Netherlands Antilles</label>
+            <value>A147</value>
+          </category>
+          <category>
+            <label>New Caledonia</label>
+            <value>A148</value>
+          </category>
+          <category>
+            <label>New Zealand</label>
+            <value>A149</value>
+          </category>
+          <category>
+            <label>Nicaragua</label>
+            <value>A150</value>
+          </category>
+          <category>
+            <label>Niger</label>
+            <value>A151</value>
+          </category>
+          <category>
+            <label>Nigeria</label>
+            <value>A152</value>
+          </category>
+          <category>
+            <label>Norfolk Island</label>
+            <value>A153</value>
+          </category>
+          <category>
+            <label>North Korea</label>
+            <value>A154</value>
+          </category>
+          <category>
+            <label>Norway</label>
+            <value>A155</value>
+          </category>
+          <category>
+            <label>Oman</label>
+            <value>A156</value>
+          </category>
+          <category>
+            <label>Pakistan</label>
+            <value>A157</value>
+          </category>
+          <category>
+            <label>Palau</label>
+            <value>A158</value>
+          </category>
+          <category>
+            <label>Palestinian Territory</label>
+            <value>A159</value>
+          </category>
+          <category>
+            <label>Panama</label>
+            <value>A160</value>
+          </category>
+          <category>
+            <label>Papua New Guinea</label>
+            <value>A161</value>
+          </category>
+          <category>
+            <label>Paraguay</label>
+            <value>A162</value>
+          </category>
+          <category>
+            <label>Peru</label>
+            <value>A163</value>
+          </category>
+          <category>
+            <label>Philippines</label>
+            <value>A164</value>
+          </category>
+          <category>
+            <label>Pitcairn</label>
+            <value>A165</value>
+          </category>
+          <category>
+            <label>Poland</label>
+            <value>A166</value>
+          </category>
+          <category>
+            <label>Portugal</label>
+            <value>A167</value>
+          </category>
+          <category>
+            <label>Puerto Rico</label>
+            <value>A168</value>
+          </category>
+          <category>
+            <label>Qatar</label>
+            <value>A169</value>
+          </category>
+          <category>
+            <label>Romania</label>
+            <value>A170</value>
+          </category>
+          <category>
+            <label>Russian Federation</label>
+            <value>A171</value>
+          </category>
+          <category>
+            <label>Rwanda</label>
+            <value>A172</value>
+          </category>
+          <category>
+            <label>Saint Helena</label>
+            <value>A173</value>
+          </category>
+          <category>
+            <label>Saint Kitts and Nevis</label>
+            <value>A174</value>
+          </category>
+          <category>
+            <label>Saint Lucia</label>
+            <value>A175</value>
+          </category>
+          <category>
+            <label>Saint Pierre and Miquelon</label>
+            <value>A176</value>
+          </category>
+          <category>
+            <label>Saint Vincent and the Grenadines</label>
+            <value>A177</value>
+          </category>
+          <category>
+            <label>Samoa</label>
+            <value>A178</value>
+          </category>
+          <category>
+            <label>San Marino</label>
+            <value>A179</value>
+          </category>
+          <category>
+            <label>Sao Tome and Principe</label>
+            <value>A180</value>
+          </category>
+          <category>
+            <label>Saudi Arabia</label>
+            <value>A181</value>
+          </category>
+          <category>
+            <label>Senegal</label>
+            <value>A182</value>
+          </category>
+          <category>
+            <label>Serbia</label>
+            <value>A183</value>
+          </category>
+          <category>
+            <label>Seychelles</label>
+            <value>A184</value>
+          </category>
+          <category>
+            <label>Sierra Leone</label>
+            <value>A185</value>
+          </category>
+          <category>
+            <label>Singapore</label>
+            <value>A186</value>
+          </category>
+          <category>
+            <label>Slovakia</label>
+            <value>A187</value>
+          </category>
+          <category>
+            <label>Slovenia</label>
+            <value>A188</value>
+          </category>
+          <category>
+            <label>Solomon Islands</label>
+            <value>A189</value>
+          </category>
+          <category>
+            <label>Somalia</label>
+            <value>A190</value>
+          </category>
+          <category>
+            <label>South Africa</label>
+            <value>A191</value>
+          </category>
+          <category>
+            <label>South Georgia</label>
+            <value>A192</value>
+          </category>
+          <category>
+            <label>South Korea</label>
+            <value>A193</value>
+          </category>
+          <category>
+            <label>Spain</label>
+            <value>A194</value>
+          </category>
+          <category>
+            <label>Sri Lanka</label>
+            <value>A195</value>
+          </category>
+          <category>
+            <label>Sudan</label>
+            <value>A196</value>
+          </category>
+          <category>
+            <label>Suriname</label>
+            <value>A197</value>
+          </category>
+          <category>
+            <label>Svalbard and Jan Mayen</label>
+            <value>A198</value>
+          </category>
+          <category>
+            <label>Swaziland</label>
+            <value>A199</value>
+          </category>
+          <category>
+            <label>Sweden</label>
+            <value>A200</value>
+          </category>
+          <category>
+            <label>Switzerland</label>
+            <value>A201</value>
+          </category>
+          <category>
+            <label>Syrian Arab Republic</label>
+            <value>A202</value>
+          </category>
+          <category>
+            <label>Taiwan</label>
+            <value>A203</value>
+          </category>
+          <category>
+            <label>Tajikistan</label>
+            <value>A204</value>
+          </category>
+          <category>
+            <label>Tanzania</label>
+            <value>A205</value>
+          </category>
+          <category>
+            <label>Thailand</label>
+            <value>A206</value>
+          </category>
+          <category>
+            <label>The Former Yugoslav Republic of Macedonia</label>
+            <value>A207</value>
+          </category>
+          <category>
+            <label>Timor-Leste</label>
+            <value>A208</value>
+          </category>
+          <category>
+            <label>Togo</label>
+            <value>A209</value>
+          </category>
+          <category>
+            <label>Tokelau</label>
+            <value>A210</value>
+          </category>
+          <category>
+            <label>Tonga</label>
+            <value>A211</value>
+          </category>
+          <category>
+            <label>Trinidad and Tobago</label>
+            <value>A212</value>
+          </category>
+          <category>
+            <label>Tunisia</label>
+            <value>A213</value>
+          </category>
+          <category>
+            <label>Turkey</label>
+            <value>A214</value>
+          </category>
+          <category>
+            <label>Turkmenistan</label>
+            <value>A215</value>
+          </category>
+          <category>
+            <label>Tuvalu</label>
+            <value>A216</value>
+          </category>
+          <category>
+            <label>Uganda</label>
+            <value>A217</value>
+          </category>
+          <category>
+            <label>Ukraine</label>
+            <value>A218</value>
+          </category>
+          <category>
+            <label>United Arab Emirates</label>
+            <value>A219</value>
+          </category>
+          <category>
+            <label>United Kingdom</label>
+            <value>A220</value>
+          </category>
+          <category>
+            <label>United States</label>
+            <value>A221</value>
+          </category>
+          <category>
+            <label>United States Minor Outlying Islands</label>
+            <value>A222</value>
+          </category>
+          <category>
+            <label>Uruguay</label>
+            <value>A223</value>
+          </category>
+          <category>
+            <label>Uzbekistan</label>
+            <value>A224</value>
+          </category>
+          <category>
+            <label>Vanuatu</label>
+            <value>A225</value>
+          </category>
+          <category>
+            <label>Vatican City</label>
+            <value>A226</value>
+          </category>
+          <category>
+            <label>Venezuela</label>
+            <value>A227</value>
+          </category>
+          <category>
+            <label>Vietnam</label>
+            <value>A228</value>
+          </category>
+          <category>
+            <label>Virgin Islands</label>
+            <value>A229</value>
+          </category>
+          <category>
+            <label>Wallis and Futuna</label>
+            <value>A230</value>
+          </category>
+          <category>
+            <label>Western Sahara</label>
+            <value>A231</value>
+          </category>
+          <category>
+            <label>Yemen</label>
+            <value>A232</value>
+          </category>
+          <category>
+            <label>Zambia</label>
+            <value>A233</value>
+          </category>
+          <category>
+            <label>Zimbabwe</label>
+            <value>A234</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>To which of these categories would you identify to?</text>
+      <response varName="Q05_SQ002">
+        <fixed>
+          <category>
+            <label>Maker</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q05_SQ003">
+        <fixed>
+          <category>
+            <label>Citizen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q05_SQ004">
+        <fixed>
+          <category>
+            <label>Entrepreneur</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q05_SQ005">
+        <fixed>
+          <category>
+            <label>Researcher</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q05_SQ006">
+        <fixed>
+          <category>
+            <label>Policy maker</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What is the highest degree or level of school you have completed? If currently enrolled, highest degree received.</text>
+      <response varName="Q06">
+        <fixed>
+          <category>
+            <label>Lower secondary ("Licenza media inferiore" in Italy)</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Upper secondary ("Diploma scuola superiore" in Italy)</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Bachelor or equivalent ("Laurea triennale" in Italy)</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Master or equivalent ("Laurea magistrale" in Italy)</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Doctoral or equivalent ("Dottorato di ricerca" in Italy)</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What is the field of the highest degree or level of school you have completed?</text>
+      <directive>
+        <position>during</position>
+        <text>Please indicate the field of your highest degree or level of school you have completed.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q07">
+        <fixed>
+          <category>
+            <label>Design</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Architecture</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Engineering</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Computer Science</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Communication</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>Other</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="Q07other">
+              <text>Other</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What is your work experience?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe your past work experience, especially whenever realted to your open and making practice.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q08">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Which are your interests regarding your future work?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe your possible or desired future work experience that could be related to your open and making practice. Any expectation, desire, planned strategy that might be relevant here?</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q09">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="11">
+    <sectionInfo>
+      <position>title</position>
+      <text>You and making</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>We would like to ask you a few questions about you and your relations with making, in order to understand better how OpenMetaDesign could support your making initiatives.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>For how long have you been interested in making?</text>
+      <response varName="Q10">
+        <fixed>
+          <category>
+            <label>For less than a year</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Between 1 and 5 years</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Between 5 and 10 years</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>For more than 10 years</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How have you been engaged with making?</text>
+      <response varName="Q11_SQ002">
+        <fixed>
+          <category>
+            <label>I am a Maker myself (</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q11_SQ003">
+        <fixed>
+          <category>
+            <label>I am a Maker myself (&gt;5 years)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q11_SQ004">
+        <fixed>
+          <category>
+            <label>I am a Fab Lab manager</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q11_SQ005">
+        <fixed>
+          <category>
+            <label>I am a Maker Faire organizer</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q11_SQ006">
+        <fixed>
+          <category>
+            <label>I am a researcher</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q11_SQ007">
+        <fixed>
+          <category>
+            <label>I don't really consider myself a Maker yet</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Is making your main professional activity?</text>
+      <response varName="Q12">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No, it’s a secondary professional activity</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>No, it’s just a hobby</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What is your ambition with respect to the Maker Movement?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate each of these sentences on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q13_SQ001">
+        <text>My ambition with making is commercially oriented</text>
+      </subQuestion>
+      <subQuestion varName="Q13_SQ002">
+        <text>My ambition with making is socially oriented</text>
+      </subQuestion>
+      <subQuestion varName="Q13_SQ003">
+        <text>My ambition with making is policy oriented</text>
+      </subQuestion>
+      <subQuestion varName="Q13_SQ004">
+        <text>My ambition with making is research oriented</text>
+      </subQuestion>
+      <subQuestion varName="Q13_SQ005">
+        <text>My ambition with making is local community oriented</text>
+      </subQuestion>
+      <subQuestion varName="Q13_SQ006">
+        <text>My ambition with making is technically oriented</text>
+      </subQuestion>
+      <response varName="Q13">
+        <fixed>
+          <category>
+            <label>1 - Strongly disagree</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>2 - Disagree</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>3 - Neither agree nor disagree</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>4 - Agree</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>5 - Strongly agree</label>
+            <value>A6</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="27">
+    <sectionInfo>
+      <position>title</position>
+      <text>You and Open Design</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>We would like to ask you a few questions about you and your relations with Open Design, in order to understand better how OpenMetaDesign could support your open and making initiatives.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Are you interested in adopting Open Source software, hardware and design for your future projects?</text>
+      <directive>
+        <position>during</position>
+        <text>Please specify if you are interested in adopting an Open Source software, hardware and design approach for possible future projects.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q14">
+        <fixed>
+          <category>
+            <label>Yes, to some projects</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Yes, to all projects</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No, to no projects at all</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>I'm not sure</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What would you release openly in your future projects?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose all the relevant options. They indicate your possible interest in adopting Open Source software, hardware and design in the future.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q15_SQ001">
+        <fixed>
+          <category>
+            <label>Software</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q15_SQ002">
+        <fixed>
+          <category>
+            <label>Hardware</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q15_SQ003">
+        <fixed>
+          <category>
+            <label>Design</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q15_SQ004">
+        <fixed>
+          <category>
+            <label>Documentation of the process/manufacturing/use of the project</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q15_SQ005">
+        <fixed>
+          <category>
+            <label>Use of existing open source software in my work</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q15_SQ006">
+        <fixed>
+          <category>
+            <label>Use of existing open source hardware in my work</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q15_SQ007">
+        <fixed>
+          <category>
+            <label>Use of existing open source design in my work</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What do you find interesting in Open Design?</text>
+      <directive>
+        <position>during</position>
+        <text>Please indicate which are the aspects of Open Design that are most interesting to you.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q16_SQ001">
+        <fixed>
+          <category>
+            <label>Sharing of information</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q16_SQ002">
+        <fixed>
+          <category>
+            <label>Access to information</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q16_SQ003">
+        <fixed>
+          <category>
+            <label>Modification of information</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q16_SQ004">
+        <fixed>
+          <category>
+            <label>Collaboration</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q16_SQ005">
+        <fixed>
+          <category>
+            <label>Use / Personal fabrication</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q16T">
+        <fixed>
+          <category>
+            <label>Other</label>
+            <value>Y</value>
+            <contingentQuestion varName="Q16other">
+              <text>Other</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How difficult is for you to understand the concept of Open Design and its implications?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate this sentence on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q17_SQ001">
+        <text>I understand Open Design</text>
+      </subQuestion>
+      <response varName="Q17">
+        <fixed>
+          <category>
+            <label>1 - I cannot understand it at all</label>
+            <value>SQ001</value>
+          </category>
+          <category>
+            <label>2 - I can understand very little of it</label>
+            <value>SQ002</value>
+          </category>
+          <category>
+            <label>3 - I understand something of it</label>
+            <value>SQ003</value>
+          </category>
+          <category>
+            <label>4 - I can understand most of it</label>
+            <value>SQ004</value>
+          </category>
+          <category>
+            <label>5 - I completely understand it</label>
+            <value>SQ005</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What do you find difficult in understanding Open Design?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose all the aspects that you find difficult in understanding Open Design.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q18_SQ001">
+        <fixed>
+          <category>
+            <label>Concepts and philosophy</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q18_SQ002">
+        <fixed>
+          <category>
+            <label>Intellectual Property concepts, applications and strategies</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q18_SQ003">
+        <fixed>
+          <category>
+            <label>Business Models</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q18_SQ004">
+        <fixed>
+          <category>
+            <label>Tools for managing the resources and files</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q18_SQ005">
+        <fixed>
+          <category>
+            <label>Tools for the coordination of collaborative processes (sequences of activities)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q18_SQ006">
+        <fixed>
+          <category>
+            <label>Tools for the coordination of collaborative systems (actors, roles, interactions, organizations, places)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q18T">
+        <fixed>
+          <category>
+            <label>Other</label>
+            <value>Y</value>
+            <contingentQuestion varName="Q18other">
+              <text>Other</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What do you find difficult or missing in adopting an Open Design approach for your future projects?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose all the aspects that you find difficult in adopting Open Design for your possible future projects.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q19_SQ001">
+        <fixed>
+          <category>
+            <label>Concepts and philosophy</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q19_SQ002">
+        <fixed>
+          <category>
+            <label>Intellectual Property concepts, applications and strategies</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q19_SQ003">
+        <fixed>
+          <category>
+            <label>Business Models</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q19_SQ004">
+        <fixed>
+          <category>
+            <label>Tools for managing the resources and files</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q19_SQ005">
+        <fixed>
+          <category>
+            <label>Tools for the coordination of collaborative processes (sequences of activities)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q19_SQ006">
+        <fixed>
+          <category>
+            <label>Tools for the coordination of collaborative systems (actors, roles, interactions, organizations, places)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q19T">
+        <fixed>
+          <category>
+            <label>Other</label>
+            <value>Y</value>
+            <contingentQuestion varName="Q19other">
+              <text>Other</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="28">
+    <sectionInfo>
+      <position>title</position>
+      <text>Organization in your open and making practice before this research study</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>We would like to ask you a few questions about your experience in the organization of your making and open practice before this research study, in order to understand better how OpenMetaDesign could support it.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How did you experience the processes of working in your open and making practice so far?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose one of these options, about how you experienced the processes of working together with other people in your open and making practice so far.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q20">
+        <fixed>
+          <category>
+            <label>I never noticed any organized process, everything was decided at each moment</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>There were at least sometimes processes with a certain structure, and I understood it</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>There were at least sometimes processes with a certain structure, and I understood it and designed it with other people</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How did you experience the whole systems (actors, roles, interactions, organizations, places) in your open and making practice so far?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose one of these options, about how you experienced the whole systems (intended as connections and interactions among actors, roles, organizations, places that you worked with) of working together with other people in your open and making practice so far.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q21">
+        <fixed>
+          <category>
+            <label>I did not notice any organized systems, the differences between these entities were not clear</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>There was at least sometimes a system with a certain structure, and I understood it</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>There was at least sometimes a system with a certain structure, and I understood it and designed it with the others</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Did you find any collaboration among people in your open and making practice so far, and how was it?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose one of these options regarding how you perceived the collaboration happening among all the people participating in your open and making practice so far.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q22">
+        <fixed>
+          <category>
+            <label>No collaboration at all</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Collaborative discussion about the project but work on individual projects/components</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Collaborative design of the same files/components</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How was the work coordinated during your open and making practice so far?</text>
+      <directive>
+        <position>during</position>
+        <text>Please write something about how you coordinate your personal work within your open and making practice so far.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q23">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Did you notice any form of organization of the work and roles present in the processes in your open and making practice so far?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe any form of organization of the work among the participants you noticed in your open and making practice so far, if roles were presents, task assigned, and decision-making processes in place.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q24">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How would you describe your idea of collaborative design processes using metaphors?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe how you imagine collaborative design processes using metaphors.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q25">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How would you describe your idea of collaborative design organizations using metaphors?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe how you imagine collaborative design organizations using metaphors.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q26">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Rate how much you used these tools in the coordination of your work in your open and making practice so far.</text>
+      <directive>
+        <position>during</position>
+        <text>Please indicate the percentage of how the usage of these tools/dynamics for coordinating your work with other people in your open and making practice so far. The sum of all the items must be 100.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q27_SQ001">
+        <text>Face to face interactions</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ002">
+        <text>Mobile messaging (WhatsApp, Telegram, Signal, ...)</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ003">
+        <text>Direct e-mail</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ004">
+        <text>Mailing list</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ005">
+        <text>Facebook</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ006">
+        <text>Twitter</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ007">
+        <text>Version Control repositories (GitHub, GitLab, BitBucket, ...)</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ008">
+        <text>File Storage (Google Drive, DropBox, ...)</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ009">
+        <text>Project Management platforms (Basecamp, Zoho, ...)</text>
+      </subQuestion>
+      <subQuestion varName="Q27_SQ010">
+        <text>Realtime chat (Slack, Rocket.Chat, Mattermost, ...)</text>
+      </subQuestion>
+      <response varName="Q27">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="32">
+    <sectionInfo>
+      <position>title</position>
+      <text>Organization in your group during this research study</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>We would like to ask you a few questions about your experience in the organization of your making and open practice during this research study, in order to understand better how OpenMetaDesign could support it.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How did you experience the whole process of working during this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose one of these options, about how you experienced the whole process of working together with other people during this research study.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q28">
+        <fixed>
+          <category>
+            <label>I did not notice an organized process, everything was decided at each moment</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>There was a process with a certain structure, and I understood it</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>There was a process with a certain structure, and I understood it and designed it with the others</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How did you experience the whole systems (actors, roles, interactions, organizations, places) during this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose one of these options, about how you experienced the whole system (intended as connections and interactions among actors, roles, organizations, places that you worked with) of working together with other people during this research study.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q29">
+        <fixed>
+          <category>
+            <label>I did not notice an organized system, the differences between these entities were not clear</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>There was a system with a certain structure, and I understood it</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>There was a system with a certain structure, and I understood it and designed it with the others</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Did you find any collaboration among participants during this research study, and how was it?</text>
+      <directive>
+        <position>during</position>
+        <text>Please choose one of these options regarding how you perceived the collaboration happening among all the people participating in this research study.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q30">
+        <fixed>
+          <category>
+            <label>No collaboration at all</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Collaborative discussion about the project but work on individual projects/components</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Collaborative design of the same files/components</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How was the work coordinated during this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please write something about how you coordinate your personal work during this research study.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q31">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Did you notice any form of organization of the work and roles present in the process during this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe any form of organization of the work among the participants you noticed during this research study, if roles were presents, task assigned, and decision-making processes in place.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q32">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="29">
+    <sectionInfo>
+      <position>title</position>
+      <text>Interactions in your group before the research study</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;We would like to ask you a few questions about your experience of the interactions in your open and making practice with the other participants before this research study, in order to understand better how OpenMetaDesign could support you.&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Who are the other participants in this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please list the names of the other participants in this research study.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q33_SQ1">
+        <text>Participant 01</text>
+      </subQuestion>
+      <subQuestion varName="Q33_SQ2">
+        <text>Participant 02</text>
+      </subQuestion>
+      <subQuestion varName="Q33_SQ3">
+        <text>Participant 03</text>
+      </subQuestion>
+      <subQuestion varName="Q33_SQ4">
+        <text>Participant 04</text>
+      </subQuestion>
+      <subQuestion varName="Q33_SQ5">
+        <text>Participant 05</text>
+      </subQuestion>
+      <response varName="Q33">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>With whom of the other participants in this research study have you already worked together in open and making initiatives?</text>
+      <directive>
+        <position>during</position>
+        <text>Please select all the corresponding options.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q34_SQ001">
+        <text>{Q33_SQ1}</text>
+      </subQuestion>
+      <subQuestion varName="Q34_SQ002">
+        <text>{Q33_SQ2}</text>
+      </subQuestion>
+      <subQuestion varName="Q34_SQ003">
+        <text>{Q33_SQ3}</text>
+      </subQuestion>
+      <subQuestion varName="Q34_SQ004">
+        <text>{Q33_SQ4}</text>
+      </subQuestion>
+      <subQuestion varName="Q34_SQ005">
+        <text>{Q33_SQ5}</text>
+      </subQuestion>
+      <response varName="Q34">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Uncertain</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How often have you interacted (worked, discussed, ...) with the other participants in the development of making and open source initiative before this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate all the interactions with each of these participants on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q35_SQ001">
+        <text>{Q33_SQ1}</text>
+      </subQuestion>
+      <subQuestion varName="Q35_SQ002">
+        <text>{Q33_SQ2}</text>
+      </subQuestion>
+      <subQuestion varName="Q35_SQ003">
+        <text>{Q33_SQ3}</text>
+      </subQuestion>
+      <subQuestion varName="Q35_SQ004">
+        <text>{Q33_SQ4}</text>
+      </subQuestion>
+      <subQuestion varName="Q35_SQ005">
+        <text>{Q33_SQ5}</text>
+      </subQuestion>
+      <response varName="Q35">
+        <fixed>
+          <category>
+            <label>1 - Very Rarely</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>2 - Rarely</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>3 - Occasionally</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>4 - Frequently</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>5 - Very Frequently</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How positive or negative have been your interactions with the other participants during the open and making practice before this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate all the interactions with each of these participants on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q36_SQ001">
+        <text>{Q33_SQ1}</text>
+      </subQuestion>
+      <subQuestion varName="Q36_SQ002">
+        <text>{Q33_SQ2}</text>
+      </subQuestion>
+      <subQuestion varName="Q36_SQ003">
+        <text>{Q33_SQ3}</text>
+      </subQuestion>
+      <subQuestion varName="Q36_SQ004">
+        <text>{Q33_SQ4}</text>
+      </subQuestion>
+      <subQuestion varName="Q36_SQ005">
+        <text>{Q33_SQ5}</text>
+      </subQuestion>
+      <response varName="Q36">
+        <fixed>
+          <category>
+            <label>1 - Very negative collaboration</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>2 - Negative collaboration</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>3 - Moderate collaboration</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>4 - Positive collaboration</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>5 - Very positive collaboration</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants in this research study have collaborated among them in making and open source initiative before?</text>
+      <text>{Q33_SQ1}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q37_SQ001_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ001_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ001_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ001_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ001_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants in this research study have collaborated among them in making and open source initiative before?</text>
+      <text>{Q33_SQ2}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q37_SQ002_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ002_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ002_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ002_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ002_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants in this research study have collaborated among them in making and open source initiative before?</text>
+      <text>{Q33_SQ3}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q37_SQ003_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ003_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ003_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ003_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ003_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants in this research study have collaborated among them in making and open source initiative before?</text>
+      <text>{Q33_SQ4}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q37_SQ004_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ004_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ004_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ004_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ004_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants in this research study have collaborated among them in making and open source initiative before?</text>
+      <text>{Q33_SQ5}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q37_SQ005_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ005_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ005_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ005_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q37_SQ005_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been in the development of making and open source initiatives before this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ1}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please choose all the applicable options (multiple choice) rating them on a 1 to 5 scale.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q38_SQ001_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ001_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ001_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ001_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ001_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been in the development of making and open source initiatives before this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ2}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please choose all the applicable options (multiple choice) rating them on a 1 to 5 scale.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q38_SQ002_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ002_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ002_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ002_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ002_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been in the development of making and open source initiatives before this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ3}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please choose all the applicable options (multiple choice) rating them on a 1 to 5 scale.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q38_SQ003_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ003_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ003_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ003_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ003_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been in the development of making and open source initiatives before this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ4}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please choose all the applicable options (multiple choice) rating them on a 1 to 5 scale.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q38_SQ004_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ004_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ004_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ004_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ004_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been in the development of making and open source initiatives before this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ5}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please choose all the applicable options (multiple choice) rating them on a 1 to 5 scale.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q38_SQ005_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ005_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ005_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ005_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q38_SQ005_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="31">
+    <sectionInfo>
+      <position>title</position>
+      <text>Interactions in your group during the research study</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;We would like to ask you a few questions about your experience of the interactions in your open and making practice with the other participants during this research study, in order to understand better how OpenMetaDesign could support you.&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How often have you interacted with the other participants during this research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate all the interactions with each of these participants on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q39_SQ001">
+        <text>{Q33_SQ1}</text>
+      </subQuestion>
+      <subQuestion varName="Q39_SQ002">
+        <text>{Q33_SQ2}</text>
+      </subQuestion>
+      <subQuestion varName="Q39_SQ003">
+        <text>{Q33_SQ3}</text>
+      </subQuestion>
+      <subQuestion varName="Q39_SQ004">
+        <text>{Q33_SQ4}</text>
+      </subQuestion>
+      <subQuestion varName="Q39_SQ005">
+        <text>{Q33_SQ5}</text>
+      </subQuestion>
+      <response varName="Q39">
+        <fixed>
+          <category>
+            <label>1 - Very Rarely</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>2 - Rarely</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>3 - Occasionally</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>4 - Frequently</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>5 - Very Frequently</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How positive or negative have been your interactions with the other participants during the research study?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate all the interactions with each of these participants on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q40_SQ001">
+        <text>{Q33_SQ1}</text>
+      </subQuestion>
+      <subQuestion varName="Q40_SQ002">
+        <text>{Q33_SQ2}</text>
+      </subQuestion>
+      <subQuestion varName="Q40_SQ003">
+        <text>{Q33_SQ3}</text>
+      </subQuestion>
+      <subQuestion varName="Q40_SQ004">
+        <text>{Q33_SQ4}</text>
+      </subQuestion>
+      <subQuestion varName="Q40_SQ005">
+        <text>{Q33_SQ5}</text>
+      </subQuestion>
+      <response varName="Q40">
+        <fixed>
+          <category>
+            <label>1 - Very negative collaboration</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>2 - Negative collaboration</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>3 - Moderate collaboration</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>4 - Positive collaboration</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>5 - Very positive collaboration</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants have collaborated among them during this research study?</text>
+      <text>{Q33_SQ1}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q41_SQ001_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ001_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ001_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ001_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ001_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants have collaborated among them during this research study?</text>
+      <text>{Q33_SQ2}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q41_SQ002_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ002_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ002_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ002_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ002_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants have collaborated among them during this research study?</text>
+      <text>{Q33_SQ3}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q41_SQ003_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ003_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ003_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ003_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ003_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants have collaborated among them during this research study?</text>
+      <text>{Q33_SQ4}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q41_SQ004_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ004_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ004_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ004_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ004_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do often do you think all the participants have collaborated among them during this research study?</text>
+      <text>{Q33_SQ5}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q41_SQ005_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ005_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ005_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ005_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q41_SQ005_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been during this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ1}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q42_SQ001_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ001_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ001_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ001_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ001_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been during this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ2}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q42_SQ002_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ002_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ002_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ002_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ002_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been during this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ3}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q42_SQ003_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ003_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ003_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ003_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ003_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been during this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ4}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q42_SQ004_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ004_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ004_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ004_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ004_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;How positive or negative do you think the collaborations among all the participants have been during this research study?&lt;/p&gt;</text>
+      <text>{Q33_SQ5}</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;Please rate the interactions among all the participants on a 1 to 5 scale (multiple choice).&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q42_SQ005_SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ1}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ005_SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ2}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ005_SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ3}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ005_SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ4}</label>
+        </free>
+      </response>
+      <response varName="Q42_SQ005_SQ005">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>{Q33_SQ5}</label>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="30">
+    <sectionInfo>
+      <position>title</position>
+      <text>You and OpenMetaDesign</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>We would like to ask you few questions about you and your experience with OpenMetaDesign, in order to understand better how it could be useful for you and how it could be improved in the future.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>How would you rate the usability of OpenMetaDesign?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate each of these sentences on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q43_SQ002">
+        <text>I think that I would like to use this system frequently.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ003">
+        <text>I found the system unnecessarily complex.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ004">
+        <text>I thought the system was easy to use.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ005">
+        <text>I think that I would need the support of a technical person to be able to use this system.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ007">
+        <text>I found the various functions in this system were well integrated.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ008">
+        <text>I thought there was too much inconsistency in this system.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ009">
+        <text>I would imagine that most people would learn to use this system very quickly.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ010">
+        <text>I found the system very cumbersome to use.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ011">
+        <text>I felt very confident using the system.</text>
+      </subQuestion>
+      <subQuestion varName="Q43_SQ012">
+        <text>I needed to learn a lot of things before I could get going with this system.</text>
+      </subQuestion>
+      <response varName="Q43">
+        <fixed>
+          <category>
+            <label>1 - Strongly disagree</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>2 - Disagree</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>3 - Neither agree nor disagree</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>4 - Agree</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>5 - Strongly agree</label>
+            <value>A6</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>How did you find OpenMetaDesign useful?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate each of these sentences on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q44_SQ001">
+        <text>I find OpenMetaDesign useful for discussing projects</text>
+      </subQuestion>
+      <subQuestion varName="Q44_SQ002">
+        <text>I find OpenMetaDesign useful for discussing processes</text>
+      </subQuestion>
+      <subQuestion varName="Q44_SQ003">
+        <text>I find OpenMetaDesign useful for discussing activities</text>
+      </subQuestion>
+      <subQuestion varName="Q44_SQ004">
+        <text>I find OpenMetaDesign useful for discussing flows</text>
+      </subQuestion>
+      <subQuestion varName="Q44_SQ005">
+        <text>I find OpenMetaDesign useful for discussing the organization of projects</text>
+      </subQuestion>
+      <subQuestion varName="Q44_SQ006">
+        <text>I find OpenMetaDesign useful for discussing problems in projects</text>
+      </subQuestion>
+      <response varName="Q44">
+        <fixed>
+          <category>
+            <label>1 - Strongly disagree</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>2 - Disagree</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>3 - Neither agree nor disagree</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>4 - Agree</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>5 - Strongly agree</label>
+            <value>A6</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What would do you use OpenMetaDesign for?</text>
+      <directive>
+        <position>during</position>
+        <text>Please decribe how you would use OpenMetaDesign, for which kind of initiatives or contexts, and in which ways.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q45">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How could we improve OpenMetaDesign?</text>
+      <directive>
+        <position>during</position>
+        <text>Please describe how OpenMetaDesign could be improved in terms of existing features, new features, changes in the visualizations and connections with other platforms and services, for example.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="Q46">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>How do you think OpenMetaDesign could contribute to the development of the Open Design and Maker movement?</text>
+      <response varName="Q47_SQ001">
+        <fixed>
+          <category>
+            <label>Improve the design of open and collaborative projects</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47_SQ002">
+        <fixed>
+          <category>
+            <label>Improve the manufacturing of open and collaborative projects</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47_SQ003">
+        <fixed>
+          <category>
+            <label>Improve the supply chains of open and collaborative projects</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47_SQ004">
+        <fixed>
+          <category>
+            <label>Improving the organization, coordination and collaboration within a single Maker laboratory (Fab Lab, Makerspace, Hackerspace, ...)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47_SQ005">
+        <fixed>
+          <category>
+            <label>Improving the organization, coordination and collaboration within the networks of Maker laboratories (Fab Lab, Makerspace, Hackerspace, ...)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47_SQ006">
+        <fixed>
+          <category>
+            <label>Improving the collaboration of Maker laboratories (Fab Lab, Makerspace, Hackerspace, ...) with non-maker organizations (companies, craftsmen, universities, workshops, associations, ... )</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47_SQ007">
+        <fixed>
+          <category>
+            <label>Connecting more people with a single Maker laboratory (Fab Lab, Makerspace, Hackerspace, ...)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Q47T">
+        <fixed>
+          <category>
+            <label>Other</label>
+            <value>Y</value>
+            <contingentQuestion varName="Q47other">
+              <text>Other</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What does need improvement in OpenMetaDesign?</text>
+      <directive>
+        <position>during</position>
+        <text>Please rate each of these sections on a 1 to 5 scale.</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="Q48_SQ001">
+        <text>Homepage</text>
+      </subQuestion>
+      <subQuestion varName="Q48_SQ002">
+        <text>User profile section</text>
+      </subQuestion>
+      <subQuestion varName="Q48_SQ003">
+        <text>Project section</text>
+      </subQuestion>
+      <subQuestion varName="Q48_SQ004">
+        <text>Discussion, chat, messages among users</text>
+      </subQuestion>
+      <subQuestion varName="Q48_SQ005">
+        <text>Help sections</text>
+      </subQuestion>
+      <response varName="Q48">
+        <fixed>
+          <category>
+            <label>1 - Strongly disagree</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>2 - Disagree</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>3 - Neither agree nor disagree</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>4 - Agree</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>5 - Strongly agree</label>
+            <value>A6</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+</questionnaire>
