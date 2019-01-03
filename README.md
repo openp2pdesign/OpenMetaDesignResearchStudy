@@ -1,9 +1,9 @@
 ![app/public/logo/OMD_logo_large.svg](OMD_logo_large.png)
 
-#Research Study
+# Research Study
 The [LimeSurvey](https://www.limesurvey.org/) questionnaire and [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) notebooks for testing OpenMetaDesign, a platform for the collaborative design and discussion of collaborative design processes.
 
-#Questionnaire
+# Questionnaire
 Import the ```questionnaire/limesurvey_survey_831363.lss``` or ```questionnaire/limesurvey_survey_831363.txt``` into LimeSurvey.
 
 Export the results to ```csv/results.csv``` with just the question codes and not the full questions. The Notebooks are configured to read just the question codes as the columns titles.
@@ -12,8 +12,7 @@ Export the coding results from MAXQDA into ```csv/maxqda.csv```.
 
 You can create the ```csv/outcomes.csv``` files with [git-quick-stats](https://github.com/arzzen/git-quick-stats) with: ```git quick-stats``` choosing ```9) Git commits per date```.
 
-
-#Notebooks
+# Notebooks
 Clone the repo:
 
 ```
@@ -58,5 +57,5 @@ At the end, close the Python Virtual Environment:
 deactivate
 ```
 
-#License
+# License
 [MIT License](https://choosealicense.com/licenses/mit/)
